@@ -10,6 +10,6 @@ for line in stdin.lines:
         calories.add(tally)
         tally = 0
     else:
-         tally += parseInt(line)
+        tally += parseInt(line)
 calories.sort(Descending)
 echo sum(calories[0..2])

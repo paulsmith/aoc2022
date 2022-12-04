@@ -12,7 +12,7 @@ for line in stdin.lines:
             echo "less than most: ", tally
         tally = 0
     else:
-         tally += parseInt(line)
+        tally += parseInt(line)
 if tally > most:
     most = tally
 echo most

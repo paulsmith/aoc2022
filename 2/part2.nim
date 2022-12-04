@@ -2,8 +2,8 @@ import tables
 
 type RPS = enum rock, paper, scissors
 
-var lose = { rock: scissors, paper: rock, scissors: paper }.toTable
-var win = { rock: paper, paper: scissors, scissors: rock }.toTable
+var lose = {rock: scissors, paper: rock, scissors: paper}.toTable
+var win = {rock: paper, paper: scissors, scissors: rock}.toTable
 var total: int = 0
 
 for line in stdin.lines:
